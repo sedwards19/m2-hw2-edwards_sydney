@@ -14,7 +14,7 @@
 }
 body {
 	font-family: 'Roboto', sans-serif;
-}
+	}
 /*Header with address & phone*/
 header {
 	background-color: #f5f4f0;
@@ -39,7 +39,7 @@ nav {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 100%;
+	max-width: 75%;
 }
 nav button {
 	background-color: #ffffff;
@@ -89,10 +89,10 @@ h1 {
 	margin-right: 30px;
 	text-align: center;
 }
-#quality button h3 {
+#quality button h3, #inseasonnow button h3 {
 	color: #ff294d;
 }
-#quality h3 {
+#quality h3, #inseasonnow h3 {
 	font-size: 1rem;
 }
 #quality p {
@@ -108,6 +108,42 @@ button {
 	padding-left: 20px;
 	margin-top: 20px;
 }
+
+/*In Season Now Section*/
+#inseasonnow {
+	background-color: #f5f4f0;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+#center {
+	text-align: center;
+	margin-top: 40px;
+}
+#center img {
+	max-width: 100%;
+	padding-left:20px;
+	padding-right: 20px;
+}
+#inseasonnow button {
+	background-color: transparent;
+}
+
+/*Footer*/
+footer {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: .8rem;
+	text-align: center;
+}
+footer h3 {
+	font-size: .8rem;
+}
+footer p {
+	color: #516a4c;
+	padding-top: 5px;
+}
+
 
 @media screen and (min-width: 600px) {
 	header h3 {
@@ -128,5 +164,5 @@ button {
 		margin-right: 130px;
 	}
 
-}*/
+}
 
