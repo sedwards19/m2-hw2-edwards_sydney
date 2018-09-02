@@ -29,6 +29,7 @@ h3 {
 }
 header h3 {
 	text-align: center;
+	color: #ff294d;
 }
 
 /*Navigation*/
@@ -130,7 +131,6 @@ button {
 }
 #inseasonnow h3 {
 	color: #ff294d;
-
 }
 
 /*Footer*/
